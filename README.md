@@ -17,3 +17,6 @@ Hud with feature list. <br>
 Fullbright! (toggleable by B by default) <br>
 Extensible macro system (infinite actions on each key)
 </ul>
+
+## Media
+<img src="/docs/screenshot.png" alt="screenshot"/>
