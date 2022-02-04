@@ -1,16 +1,19 @@
-# Fabric Example Mod - Kotlin
-![Gradle build](https://github.com/natanfudge/fabric-example-mod-kotlin/workflows/Gradle%20build/badge.svg)
-## Setup
+# Client DSL Examples
 
-0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
+This is a pure proof of concept of using the client-dsl in an actual game. Ideally, I would like to show implementations
+with other games besides minecraft, but for the time being, this repository is a kotlin-fabric implementation of the
+client-dsl on minecraft 1.18.1.
 
-1. Import build.gradle file with IntelliJ IDEA
+## Events
+<ul>
+   <item>RenderInGameHud - The game's hud</item> <br>
+   <item>KeyPress - GLFW keypress invoke so we can use macros</item>
+</ul>
 
-2. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-3. Run!
+## Features
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+<ul>
+Hud with feature list. <br>
+Fullbright! (toggleable by B by default) <br>
+Extensible macro system (infinite actions on each key)
+</ul>

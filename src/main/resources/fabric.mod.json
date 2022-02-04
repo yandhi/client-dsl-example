@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "client mod",
+  "id": "clientmod",
   "version": "${version}",
   "name": "client mod",
   "description": "An example mod using my client-dsl framework.",
@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.yandhi.client.ClientModKt::init"
+      "io.github.yandhi.exclient.ClientModKt::init"
     ]
   },
   "mixins": [
